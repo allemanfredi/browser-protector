@@ -1,0 +1,38 @@
+{
+  "name": "browser-protector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./webpack.config.js"
+  },
+  "author": "Alessandro Manfredi <alle.manfredi@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "browser",
+    "argon2",
+    "aes-cgm",
+    "password",
+    "encryption"
+  ],
+  "dependencies": {
+    "argon2-browser": "^1.13.0",
+    "browserify-unibabel": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/runtime": "^7.8.7",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "base64-loader": "^1.0.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "files": [
+    "dist/main.js",
+    "dist/main.js.map"
+  ]
+}
