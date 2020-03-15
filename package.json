@@ -1,8 +1,8 @@
 {
   "name": "browser-protector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "./dist/main.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config ./webpack.config.js"
@@ -33,6 +33,7 @@
   },
   "files": [
     "dist/main.js",
-    "dist/main.js.map"
+    "dist/main.js.map",
+    "index.js"
   ]
 }
